@@ -232,7 +232,14 @@ console.log(addItem()); //-> CORRECT
 */
 
 //Code Here
+function maker() {
+  let arr = [];
+  
+  arr = Array.from({length: 215}, (_, i) => i + 1);
+  return arr;
+}
 
+console.log(maker());
 
 
 ////////// PROBLEM 10 //////////
@@ -248,10 +255,19 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
 */
   
 //Code Here
+function addTen(numbers) {
+  let newArr = [];
+
+  for(let i = 0; i < numbers.length; i++) {
+    newArr.push(Number(numbers[i] + 10));
+  }
+  return newArr
+}
+ //This is incorrect...
+console.log(addTen(numbers));
 
 
-
-////////// PROBLEM 11 //////////
+////////// PROBLEM 11 /////////
 
 // Do not edit the code below.
 var num1 = Math.floor(Math.random() * 30);
