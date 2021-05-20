@@ -200,7 +200,13 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 */
 
 //Code Here
-
+function removeItem(myGroceryList, item) {
+  for(let i = 0; i < myGroceryList.length; i++)
+    if(item === myGroceryList[i]) {
+      myGroceryList.splice(i,1);
+    } 
+    return myGroceryList
+}
 
 
 ////////// PROBLEM 9 //////////
