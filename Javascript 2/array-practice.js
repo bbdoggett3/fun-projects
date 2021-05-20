@@ -200,14 +200,30 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 */
 
 //Code Here
-function removeItem(myGroceryList, item) {
+function removeItem(myGroceryList, removeItem) {
+  if(!myGroceryList || !removeItem) {
+    return [] 
+  }
   for(let i = 0; i < myGroceryList.length; i++)
-    if(item === myGroceryList[i]) {
+    if(removeItem === myGroceryList[i]) {
       myGroceryList.splice(i,1);
     } 
     return myGroceryList
 }
 
+const addItem = (myGroceryList, addItem) => {
+  if(!myGroceryList || !removeItem) {
+    return [] 
+  }
+  myGroceryList.push(addItem);
+  return myGroceryList;
+}
+
+//Tests for my functions above:
+console.log(removeItem(myGroceryList, 'chips')); //-> CORRECT
+console.log(addItem(myGroceryList, 'Jerky')); //-> CORRECT
+console.log(removeItem(myGroceryList)); //-> CORRECT
+console.log(addItem()); //-> CORRECT
 
 ////////// PROBLEM 9 //////////
 
