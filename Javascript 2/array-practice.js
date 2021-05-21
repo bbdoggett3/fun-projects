@@ -358,7 +358,9 @@ var colt = {
 */
 
 //Code Here
+devMountainEmployees.push(joe, cahlan, ryan, colt);
 
+console.log(devMountainEmployees);
 
 
 /*
@@ -367,7 +369,7 @@ var colt = {
 */
 
 //Code Here
-
+devMountainEmployees.splice(devMountainEmployees.indexOf(cahlan), 1);
 
 
 ////////// PROBLEM 13 //////////
