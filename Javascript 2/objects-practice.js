@@ -141,7 +141,7 @@ var user2 = {
   */
   
   //Code Here
-  console.log(methodCollection.alertHello)
+  console.log(methodCollection.alertHello);
   ////////// PROBLEM 6 //////////
   
   /*
