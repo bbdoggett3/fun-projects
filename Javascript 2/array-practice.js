@@ -381,7 +381,7 @@ devMountainEmployees.splice(devMountainEmployees.indexOf(cahlan), 1);
 */
 
 //Code Here
-
+let users = [];
 
 
 /*
@@ -401,8 +401,22 @@ var user1 = {
 // Do not edit the code above.
 
 //Code Here
+var user2 = {
+  name: 'Bill Ted',
+  email: 'wildstallions@devmounta.in',
+  password: 'savetheworld',
+  username: 'rockondude123'
+};
 
+var user3 = {
+  name: 'Marty McFly',
+  email: 'powerofLove@devmounta.in',
+  password: 'fluxcapacitor',
+  username: 'back2futurekid'
+};
 
+users.push(user1, user2, user3);
+console.log(users);
 
 /*
   Now you have a very common data structure. 
@@ -414,7 +428,16 @@ var user1 = {
 */
 
 //Code Here
+function deleteUser(arr) {
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i].email === "mark.mciver@devmounta.in") {
+      arr.splice(i,1);
+    }
+  }
+  return arr 
+}
 
+console.log(deleteUser(users));
 
 
 /*
