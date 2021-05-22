@@ -150,7 +150,16 @@ var user2 = {
   */
   
   //Code Here
-  
+  function makePerson(name, birthday, ssn) {
+    let person = {
+      name: name,
+      birthday: birthday,
+      ssn: ssn
+    }
+    return person;
+  }
+
+  console.log(makePerson('Ben', '3/08/1993', "123-456-7890"))
   ////////// PROBLEM 7 //////////
   
   /*
