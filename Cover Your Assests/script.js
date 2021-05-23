@@ -2,11 +2,14 @@
 let decreaseBtn = document.querySelector(".btn-decrease");
 let increaseBtn = document.querySelector(".btn-increase");
 let counter = document.querySelector(".counter");
+let count = 0;
 
 decreaseBtn.addEventListener('click', ()=> {
-    console.log('decrease')
+    count--;
+    counter.innerHTML = count;
 });
 
 increaseBtn.addEventListener('click', ()=> {
-    console.log('increase')
+    count++;
+    counter.innerHTML = count;
 });
