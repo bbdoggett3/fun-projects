@@ -5,11 +5,11 @@ let counter = document.querySelector(".counter");
 let count = 0;
 
 decreaseBtn.addEventListener('click', ()=> {
-    count--;
+    count--
     counter.innerHTML = count;
 });
 
 increaseBtn.addEventListener('click', ()=> {
     count++;
-    counter.innerHTML = count;
+    counter.innerHTML = count++
 });
