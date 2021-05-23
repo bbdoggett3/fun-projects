@@ -168,3 +168,13 @@ var user2 = {
   */
   
   //Code Here
+  function makeCard(cardNumber, expirationDate, securityCode) {
+    let card = {
+      cardNumber: cardNumber,
+      expirationDate: expirationDate,
+      securityCode: securityCode
+    }
+    return card
+  }
+
+  console.log(makeCard("12-45-22233", "6-22", "656"));
