@@ -6,6 +6,15 @@ body {
 }
 
 #main-container {
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
 
 }
 
@@ -18,9 +27,22 @@ body {
     border-radius: 10px;
     border: 1px solid lightgray;
     box-shadow: 10px 10px 20px lightgrey;
-
+    padding:2em;
+    margin:1em;
 }
 
+#silver-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    box-shadow: 10px 10px 20px lightgrey;
+    padding:2em;
+    margin:1em;
+}
 .btn-wrapper {
     margin-bottom: 1em;
 }
