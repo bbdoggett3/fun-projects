@@ -15,6 +15,7 @@ h1 {
 }
 
 #main-container {
+    max-width:70%;
 }
 
 .card-container {
@@ -69,4 +70,18 @@ h1 {
 .btn-increase:hover {
     background-color: white;
     cursor:pointer;
+}
+#instructions {
+    width: 8em;
+    height: 2em;
+    background-color: #D91219;
+    border: 2px solid #D9A416;
+    color: #D9A416;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+#instructions:hover {
+    background-color: #E9441C;
+    cursor: pointer;
 }
