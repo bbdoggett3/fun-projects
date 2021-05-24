@@ -27,7 +27,7 @@ h1 {
 
 }
 
-#gold-container {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,17 +39,6 @@ h1 {
     margin:1em;
 }
 
-#silver-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    border: 5px solid #D9A416;
-    box-shadow: 5px 5px 15px black;
-    padding:2em;
-    margin:1em;
-}
 .btn-wrapper {
     margin-bottom: 1em;
 }
