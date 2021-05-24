@@ -5,6 +5,13 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Bitter', serif;
+    background-color: #D91219;
+}
+
+h1 {
+    color:#D9A416;
+    font-size: 5em;
+    text-shadow: 4px 4px 7px black;
 }
 
 #main-container {
@@ -14,7 +21,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     
 
@@ -26,9 +33,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    border-radius: 10px;
-    border: 1px solid lightgray;
-    box-shadow: 10px 10px 20px lightgrey;
+    border: 5px solid #D9A416;
+    box-shadow: 5px 5px 15px black;
     padding:2em;
     margin:1em;
 }
@@ -39,9 +45,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    border-radius: 10px;
-    border: 1px solid lightgray;
-    box-shadow: 10px 10px 20px lightgrey;
+    border: 5px solid #D9A416;
+    box-shadow: 5px 5px 15px black;
     padding:2em;
     margin:1em;
 }
