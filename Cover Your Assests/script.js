@@ -18,9 +18,9 @@ increaseBtn.addEventListener('click', ()=> {
 
 // function increment() {
 //     let counter = document.querySelector(".counter");
-//     let count = 0;
+//     let count = counter + 50000;
 
-//     count++;
+//     count;
 //     counter.innerHTML = count;
     
 // }
@@ -32,3 +32,13 @@ increaseBtn.addEventListener('click', ()=> {
 //     count--
 //     counter.innerHTML = count;
 // }
+
+
+// function goldCounter() {
+//     let goldNum = 0;
+
+//     let newNum = goldNum + 50000;
+
+//     return newNum
+// }
+
